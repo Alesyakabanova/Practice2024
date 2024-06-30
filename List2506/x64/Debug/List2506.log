@@ -1,6 +1,0 @@
-﻿  Iterator.cpp
-  List1.cpp
-  List2506.cpp
-  Stack.cpp
-  Создание кода...
-C:\класснаяработа1109\List2506\Stack.cpp(9): error C4716: Stack::Pop: должна возвращать значение
