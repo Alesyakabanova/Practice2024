@@ -130,11 +130,13 @@
     <ClCompile Include="Iterator.cpp" />
     <ClCompile Include="List1.cpp" />
     <ClCompile Include="List2506.cpp" />
+    <ClCompile Include="ListIterator.cpp" />
     <ClCompile Include="Stack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Iterator.h" />
     <ClInclude Include="List1.h" />
+    <ClInclude Include="ListIterator.h" />
     <ClInclude Include="Stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -4,9 +4,9 @@ void Stack::Push(int el) {
 }
 int Stack::Pop() {
 	if (!list.Empty()) {
-		list.DeleteFirst();
+		return list.DeleteFirst();
 	}
 }
-void Stack::Empty() {
-
+bool Stack::Empty() {
+	return list.Empty();
 }

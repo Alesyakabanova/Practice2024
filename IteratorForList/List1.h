@@ -9,15 +9,16 @@ struct SElement
     ~SElement() = default;
 };
 class ListIterator;
-class List1
+class List
 {
 public:
     friend class ListIterator;
-	List1();
+	List();
 	void Print();
 	void AddFirst(int Element);
 	int DeleteFirst();
 	bool Empty();
+    ~List();
 private:
 	SElement* first;
 };
